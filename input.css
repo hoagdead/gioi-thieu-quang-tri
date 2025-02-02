@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.video-container{
+    position: relative;
+
+}
+.video-fillter{
+    position: absolute;
+    top: 0; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.midtext {
+    color: bisque;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-45%, -45%); /* Căn giữa đoạn văn bản */
+    z-index: 2;
+    font-size: 30px;
+}
+
+.midtext h2{
+    font-size: 70px;
+}
+
+.midtext a{
+    padding: 1px 5px 2px 5px;
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;
+}
+.khampha {
+    margin-top: 5%;
+}
+.khampha h1{
+    margin-left: 20%;
+    padding-bottom: 56px;
+    font-size: 45px;
+    font-weight: 500;
+}
+.shortcut {
+    margin-top: 10px;
+}
+.label1{
+    display: flex;
+    padding-bottom: 100px;
+}
+.container1{
+    margin-top: 100px;
+    margin-left: 32px;
+    width:460px;
+    text-align: center;
+    padding: 5px 5px 20px 15px;
+    justify-items: center;
+}
+.container1 h3{
+    font-size: 23px;
+    font-weight: 500;
+}
+.container1 p{
+    padding-top: 20px;
+}
+.history-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+}
+
+.history-section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.history-section p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: #34495e;
+}
+/* Style chung cho các section */
+.festival-section,
+.nature-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.nature-section h2,
+.festival-section h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+/* Style cho các item */
+.festival-item,
+.nature-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.festival-item:hover,
+.nature-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Style cho hình ảnh */
+.festival-image,
+.nature-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Style cho tiêu đề và đoạn văn */
+.nature-section h3,
+.festival-section h3 {
+    color: #34495e;
+    margin: 15px 0;
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: 400;
+}
+.nature-section p,
+.festival-section p {
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: 400;
+}
+
+
+
+

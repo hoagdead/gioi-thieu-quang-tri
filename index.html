@@ -3,11 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div class="video-container">
+        <div class="midtext">
+          <h2>Kham Pha Quang Tri Ngay</h2>
+          <p>tim hieu them ve ve dep va van hoa doc dao cua que huong quang tri</p>
+          <div class="shortcut">
+            <a href="#timhieu">Tim hieu</a>
+            <a href="#khampha">kham pha</a>
+          </div>
+        </div>
+        <div class="video-fillter"></div>
+        <video src="src/bgr video.mp4" width="auto" height="auto" autoplay muted>
+        </video>
+    </div>
+
+    <div class="khampha" id="khampha">
+      <h1>Khám phá vẻ đẹp và lịch sử của Quảng Trị</h1>
+      <div class="label1">
+        <div class="container1">
+          <img src="src/Relume.png" alt="">
+          <h3>Quảng Trị: vùng đất lửa và câu chuyện 30 ngày đêm huyền thoại</h3>
+          <p>Quảng Trị nổi bật với lịch sử hào hùng</p>
+          <br>
+          <a href="#lichsuqt">Tìm Hiểu ></a>
+        </div>
+        
+        <div class="container1">
+          <img src="src/Relume.png" alt="">
+          <h3>Khám phá các lễ hội văn hóa đặc sắc của người dân Quảng Trị</h3>
+          <p>Những lễ hội truyền thống của người dân mang đậm bản sắc địa phương</p>
+          <br>
+          <a href="#lehoi">Tham gia ></a>
+        </div>
+        <div class="container1">
+          <img src="src/Relume.png" alt="">
+          <h3>Cảnh đẹp thiên nhiên Quảng Trị: Núi, biển và những dòng sông thơ mộng</h3>
+          <p>Khung cảnh thiên nhiên nơi đay sẽ khiến bạn say đắm lòng người</p>
+          <br>
+          <a href="#thiennhien">Khám phá ></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="lichsuqt" class="history-section">
+      <h2>Lịch Sử Hào Hùng Của Quảng Trị</h2>
+      
+      <p>Quảng Trị - mảnh đất nằm ở vĩ tuyến 17, là vùng đất đã chứng kiến những trang sử bi hùng của dân tộc Việt Nam. Trong suốt cuộc kháng chiến chống Mỹ, Quảng Trị trở thành điểm nóng của chiến trường với những trận đánh khốc liệt nhất.</p>
+  
+      <p>Đặc biệt, trận đánh 81 ngày đêm bảo vệ Thành Cổ Quảng Trị (từ 28/6 đến 16/9/1972) đã đi vào lịch sử như một biểu tượng của chủ nghĩa anh hùng cách mạng. Trong thời gian này, hàng nghìn chiến sĩ đã anh dũng chiến đấu, bảo vệ từng tấc đất của Thành Cổ, tạo nên một huyền thoại về lòng dũng cảm và tinh thần chiến đấu kiên cường.</p>
+  
+      <p>Địa đạo Vịnh Mốc là một trong những công trình độc đáo nhất của người dân Quảng Trị, được xây dựng trong thời kỳ kháng chiến. Hệ thống địa đạo dài hơn 2km này không chỉ là nơi trú ẩn an toàn cho người dân mà còn là căn cứ quan trọng phục vụ cho cuộc kháng chiến.</p>
+  
+      <p>Sông Thạch Hãn - dòng sông mang tên "Sông Thành", đã chứng kiến nhiều trận đánh ác liệt và trở thành biểu tượng của tinh thần chiến đấu kiên cường. Câu ca "Ra đi ai cũng mong về, Về qua Thạch Hãn, nghe ve réo rắt" đã đi vào tâm khảm của nhiều thế hệ người Việt Nam.</p>
+  
+      <p>Ngày nay, Quảng Trị không chỉ là điểm đến của những người muốn tìm hiểu về lịch sử mà còn là minh chứng cho sức sống mãnh liệt của con người Việt Nam. Những di tích lịch sử như Thành Cổ Quảng Trị, Địa đạo Vịnh Mốc, Nghĩa trang Trường Sơn, Đường 9 - Nam Lào đã trở thành những địa điểm giáo dục truyền thống yêu nước cho thế hệ trẻ.</p>
+  
+      <p>Hôm nay, trên mảnh đất từng là chiến trường ác liệt năm xưa, Quảng Trị đã và đang vươn mình phát triển, xây dựng một tương lai tươi sáng, góp phần vào sự phát triển chung của đất nước, đồng thời vẫn giữ gìn và phát huy những giá trị lịch sử quý báu của vùng đất anh hùng.</p>
+  </div>
+
+  <!-- Phần Lễ hội -->
+<div id="lehoi" class="festival-section">
+  <h2>Lễ Hội Văn Hóa Đặc Sắc Quảng Trị</h2>
+  <div class="festival-item">
+      <h3>Lễ Hội Hát Bội</h3>
+      <img src="src/hat-boi.jpg" alt="Hát Bội Quảng Trị" class="festival-image">
+      <p>Hát Bội là một trong những loại hình nghệ thuật truyền thống đặc sắc của Quảng Trị, thường được tổ chức vào dịp đầu năm tại các đình làng. Nghệ thuật này không chỉ mang tính giải trí mà còn chứa đựng nhiều giá trị văn hóa, lịch sử của địa phương.</p>
+  </div>
+
+  <div class="festival-item">
+      <h3>Lễ Cầu Ngư</h3>
+      <img src="path/to/cau-ngu.jpg" alt="Lễ Cầu Ngư" class="festival-image">
+      <p>Được tổ chức vào đầu năm mới tại các làng ven biển, lễ Cầu Ngư là nghi lễ cầu mong một năm mới với mùa màng bội thu, đánh bắt thuận lợi. Lễ hội này thể hiện đậm nét văn hóa của cộng đồng ngư dân ven biển Quảng Trị.</p>
+  </div>
+
+  <div class="festival-item">
+      <h3>Lễ Hội Rằm Tháng Bảy</h3>
+      <img src="path/to/ram-thang-7.jpg" alt="Lễ hội Rằm tháng 7" class="festival-image">
+      <p>Đây là lễ hội truyền thống lớn nhất trong năm của người dân Quảng Trị, với các nghi lễ tưởng nhớ các anh hùng liệt sĩ và cầu nguyện cho quốc thái dân an.</p>
+  </div>
+</div>
+
+<!-- Phần Cảnh đẹp thiên nhiên -->
+<div id="thiennhien" class="nature-section">
+  <h2>Cảnh Đẹp Thiên Nhiên Quảng Trị</h2>
+
+  <div class="nature-item">
+      <h3>Biển Cửa Tùng</h3>
+      <img src="path/to/cua-tung.jpg" alt="Biển Cửa Tùng" class="nature-image">
+      <p>Được mệnh danh là "Nữ hoàng của những bãi biển", Cửa Tùng nổi tiếng với bờ cát trắng mịn, làn nước trong xanh và những hàng phi lao rì rào trong gió. Đây là một trong những bãi biển đẹp nhất miền Trung.</p>
+  </div>
+
+  <div class="nature-item">
+      <h3>Thác Chênh Vênh</h3>
+      <img src="path/to/thac-chenh-venh.jpg" alt="Thác Chênh Vênh" class="nature-image">
+      <p>Nằm trong khu bảo tồn thiên nhiên Đakrông, thác Chênh Vênh là một tuyệt tác của thiên nhiên với những thác nước hùng vĩ đổ xuống từ độ cao 50m, tạo nên khung cảnh kỳ vĩ giữa núi rừng.</p>
+  </div>
+
+  <div class="nature-item">
+      <h3>Đảo Cồn Cỏ</h3>
+      <img src="path/to/dao-con-co.jpg" alt="Đảo Cồn Cỏ" class="nature-image">
+      <p>Hòn đảo xinh đẹp này không chỉ có giá trị về mặt lịch sử mà còn sở hữu hệ sinh thái biển phong phú, những rạn san hô đẹp và bãi tắm hoang sơ.</p>
+  </div>
+</div>
   </body>
 </html>
